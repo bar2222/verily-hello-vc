@@ -19,6 +19,7 @@
 #
 ###############################################################################
 import datetime
+import sqlite3
 
 
 def main():
@@ -28,6 +29,7 @@ def main():
     #
     ###########################################################################
     print("John DiMatteo likes datetime:", datetime.__doc__)
+    print("Bar likes sqlite3:", sqlite3.__doc__)
 
 
 if __name__ == "__main__":
