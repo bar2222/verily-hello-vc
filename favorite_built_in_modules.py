@@ -23,6 +23,7 @@ import math
 import os
 import array
 import sqlite3
+import decimal
 
 def main():
     ###########################################################################
